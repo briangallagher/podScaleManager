@@ -1,0 +1,65 @@
+{
+  "apiVersion": "extensions/v1beta1",
+  "kind": "Deployment",
+  "metadata": {
+    "annotations": {
+      "deployment.kubernetes.io/revision": "1"
+    },
+    "creationTimestamp": "2016-11-30T16:57:26Z",
+    "generation": 4,
+    "labels": {
+      "run": "nodeloadtestv2"
+    },
+    "name": "nodeloadtestv2",
+    "namespace": "default",
+    "resourceVersion": "702684",
+    "selfLink": "/apis/extensions/v1beta1/namespaces/default/deployments/nodeloadtestv2",
+    "uid": "12232036-b71e-11e6-aaf1-e20e3cb14eb6"
+  },
+  "spec": {
+    "replicas": 4,
+    "selector": {
+      "matchLabels": {
+        "run": "nodeloadtestv2"
+      }
+    },
+    "strategy": {
+      "rollingUpdate": {
+        "maxSurge": 1,
+        "maxUnavailable": 1
+      },
+      "type": "RollingUpdate"
+    },
+    "template": {
+      "metadata": {
+        "creationTimestamp": null,
+        "labels": {
+          "run": "nodeloadtestv2"
+        }
+      },
+      "spec": {
+        "containers": [{
+          "image": "briangallagher/nodeloadtest:v6",
+          "imagePullPolicy": "IfNotPresent",
+          "name": "nodeloadtestv2",
+          "ports": [{
+            "containerPort": 8001,
+            "protocol": "TCP"
+          }],
+          "resources": {},
+          "terminationMessagePath": "/dev/termination-log"
+        }],
+        "dnsPolicy": "ClusterFirst",
+        "restartPolicy": "Always",
+        "securityContext": {},
+        "terminationGracePeriodSeconds": 30
+      }
+    }
+  },
+  "status": {
+    "availableReplicas": 1,
+    "observedGeneration": 4,
+    "replicas": 1,
+    "updatedReplicas": 1
+  }
+}

@@ -1,0 +1,9 @@
+I1205 20:02:04.837143   62971 request.go:558] Request Body: "{\"kind\":\"Deployment\",\"apiVersion\":\"extensions/v1beta1\",\"metadata\":{\"name\":\"nodeloadtestv2\",\"namespace\":\"default\",\"selfLink\":\"/apis/extensions/v1beta1/namespaces/default/deployments/nodeloadtestv2\",\"uid\":\"12232036-b71e-11e6-aaf1-e20e3cb14eb6\",\"resourceVersion\":\"702684\",\"generation\":4,\"creationTimestamp\":\"2016-11-30T16:57:26Z\",\"labels\":{\"run\":\"nodeloadtestv2\"},\"annotations\":{\"deployment.kubernetes.io/revision\":\"1\"}},\"spec\":{\"replicas\":4,\"selector\":{\"matchLabels\":{\"run\":\"nodeloadtestv2\"}},\"template\":{\"metadata\":{\"creationTimestamp\":null,\"labels\":{\"run\":\"nodeloadtestv2\"}},\"spec\":{\"containers\":[{\"name\":\"nodeloadtestv2\",\"image\":\"briangallagher/nodeloadtest:v6\",\"ports\":[{\"containerPort\":8001,\"protocol\":\"TCP\"}],\"resources\":{},\"terminationMessagePath\":\"/dev/termination-log\",\"imagePullPolicy\":\"IfNotPresent\"}],\"restartPolicy\":\"Always\",\"terminationGracePeriodSeconds\":30,\"dnsPolicy\":\"ClusterFirst\",\"securityContext\":{}}},\"strategy\":{\"type\":\"RollingUpdate\",\"rollingUpdate\":{\"maxUnavailable\":1,\"maxSurge\":1}}},\"status\":{\"observedGeneration\":4,\"replicas\":1,\"updatedReplicas\":1,\"availableReplicas\":1}}\n"
+
+
+I1205 20:02:04.837263   62971 round_trippers.go:296] PUT https://192.168.99.100:8443/apis/extensions/v1beta1/namespaces/default/deployments/nodeloadtestv2
+
+I1205 20:02:04.837273   62971 round_trippers.go:303] Request Headers:
+I1205 20:02:04.837277   62971 round_trippers.go:306]     Accept: application/json, */*
+I1205 20:02:04.837281   62971 round_trippers.go:306]     Content-Type: application/json
+I1205 20:02:04.837285   62971 round_trippers.go:306]     User-Agent: kubectl/v1.4.4 (darwin/amd64) kubernetes/3b417cc
