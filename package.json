@@ -15,6 +15,7 @@
     "child_process": "^1.0.2",
     "exec": "^0.2.1",
     "express": "^4.14.0",
+    "proxyquire": "^1.7.11",
     "request": "^2.79.0"
   }
 }
