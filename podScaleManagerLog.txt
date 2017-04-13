@@ -1,0 +1,4328 @@
+App started at: Mon Apr 03 2017 09:50:54 GMT+0100 (IST) on port: 3000
+Starting the monitoring of resources 
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:51:13 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 205
+Total Number of Active Pods: 1
+Average Response Time for http requests: 754
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 1
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 150
+Current cpu usage across all pods in MilliCores 0 
+
+Current total CPU usage is within threshold, no scaling adjustment required
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 1
+Current treshold in MBs 140
+Current total treshold in MBs  140
+Current memory usage across all pods in MBs 205 
+
+Current total Memory usage is greater than total threshold, extra 1 pods required to meet Memory demand
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 1
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 754 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 1
+Extra Pods Required: 1
+Requesting new Total Pods: 2
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:51:14 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:51:21 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 205
+Total Number of Active Pods: 1
+Average Response Time for http requests: 764
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:51:21 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:51:28 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 205
+Total Number of Active Pods: 1
+Average Response Time for http requests: 767
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:51:28 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:51:35 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 205
+Total Number of Active Pods: 1
+Average Response Time for http requests: 771
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 1
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 150
+Current cpu usage across all pods in MilliCores 0 
+
+Current total CPU usage is within threshold, no scaling adjustment required
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 1
+Current treshold in MBs 140
+Current total treshold in MBs  140
+Current memory usage across all pods in MBs 205 
+
+Current total Memory usage is greater than total threshold, extra 1 pods required to meet Memory demand
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 1
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 771 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 1
+Extra Pods Required: 1
+Requesting new Total Pods: 2
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:51:35 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:51:42 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 154
+Total Memory in MBs across all pods: 289
+Total Number of Active Pods: 2
+Average Response Time for http requests: 771
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:51:42 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:51:49 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 154
+Total Memory in MBs across all pods: 289
+Total Number of Active Pods: 2
+Average Response Time for http requests: 783
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:51:49 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:51:56 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 273
+Total Memory in MBs across all pods: 289
+Total Number of Active Pods: 2
+Average Response Time for http requests: 791
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 2
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 300
+Current cpu usage across all pods in MilliCores 273 
+
+Current total CPU usage is within threshold, no scaling adjustment required
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 2
+Current treshold in MBs 140
+Current total treshold in MBs  280
+Current memory usage across all pods in MBs 289 
+
+Current total Memory usage is greater than total threshold, extra 1 pods required to meet Memory demand
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 2
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 791 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 2
+Extra Pods Required: 1
+Requesting new Total Pods: 3
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:51:56 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:52:03 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 419
+Total Memory in MBs across all pods: 290
+Total Number of Active Pods: 2
+Average Response Time for http requests: 791
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:52:03 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:52:10 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 419
+Total Memory in MBs across all pods: 290
+Total Number of Active Pods: 2
+Average Response Time for http requests: 791
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:52:10 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:52:17 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 419
+Total Memory in MBs across all pods: 290
+Total Number of Active Pods: 2
+Average Response Time for http requests: 791
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 2
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 300
+Current cpu usage across all pods in MilliCores 419 
+
+Current total CPU usage is greater than total threshold, extra 1 pods required to meet CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 2
+Current treshold in MBs 140
+Current total treshold in MBs  280
+Current memory usage across all pods in MBs 290 
+
+Current total Memory usage is greater than total threshold, extra 1 pods required to meet Memory demand
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 2
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 791 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 2
+Extra Pods Required: 1
+Requesting new Total Pods: 3
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:52:17 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:52:24 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 667
+Total Memory in MBs across all pods: 376
+Total Number of Active Pods: 3
+Average Response Time for http requests: 813
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:52:24 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:52:31 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 503
+Total Memory in MBs across all pods: 376
+Total Number of Active Pods: 3
+Average Response Time for http requests: 818
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:52:31 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:52:38 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 547
+Total Memory in MBs across all pods: 376
+Total Number of Active Pods: 3
+Average Response Time for http requests: 821
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 3
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 450
+Current cpu usage across all pods in MilliCores 547 
+
+Current total CPU usage is greater than total threshold, extra 1 pods required to meet CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 3
+Current treshold in MBs 140
+Current total treshold in MBs  420
+Current memory usage across all pods in MBs 376 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 3
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 821 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 3
+Extra Pods Required: 1
+Requesting new Total Pods: 4
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:52:38 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:52:45 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 547
+Total Memory in MBs across all pods: 376
+Total Number of Active Pods: 3
+Average Response Time for http requests: 824
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:52:45 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:52:52 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 547
+Total Memory in MBs across all pods: 376
+Total Number of Active Pods: 3
+Average Response Time for http requests: 824
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:52:52 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:52:59 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 547
+Total Memory in MBs across all pods: 376
+Total Number of Active Pods: 3
+Average Response Time for http requests: 839
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 3
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 450
+Current cpu usage across all pods in MilliCores 547 
+
+Current total CPU usage is greater than total threshold, extra 1 pods required to meet CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 3
+Current treshold in MBs 140
+Current total treshold in MBs  420
+Current memory usage across all pods in MBs 376 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 3
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 839 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 3
+Extra Pods Required: 1
+Requesting new Total Pods: 4
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:52:59 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:53:06 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 835
+Total Memory in MBs across all pods: 468
+Total Number of Active Pods: 4
+Average Response Time for http requests: 839
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:53:06 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:53:13 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 781
+Total Memory in MBs across all pods: 439
+Total Number of Active Pods: 4
+Average Response Time for http requests: 848
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:53:13 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:53:20 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 577
+Total Memory in MBs across all pods: 439
+Total Number of Active Pods: 4
+Average Response Time for http requests: 853
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 577 
+
+Current total CPU usage is within threshold, no scaling adjustment required
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 439 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 853 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Extra Pods Required: 1
+Requesting new Total Pods: 5
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:53:20 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:53:27 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 282
+Total Memory in MBs across all pods: 439
+Total Number of Active Pods: 4
+Average Response Time for http requests: 859
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:53:27 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:53:34 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 282
+Total Memory in MBs across all pods: 439
+Total Number of Active Pods: 4
+Average Response Time for http requests: 863
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:53:34 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:53:41 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 64
+Total Memory in MBs across all pods: 439
+Total Number of Active Pods: 4
+Average Response Time for http requests: 872
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 64 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 439 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 872 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Extra Pods Required: 1
+Requesting new Total Pods: 5
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:53:41 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:53:48 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 208
+Total Number of Active Pods: 1
+Average Response Time for http requests: 876
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:53:48 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:53:55 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 208
+Total Number of Active Pods: 1
+Average Response Time for http requests: 878
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:53:55 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:54:02 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 208
+Total Number of Active Pods: 1
+Average Response Time for http requests: 887
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 1
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 150
+Current cpu usage across all pods in MilliCores 0 
+
+Current total CPU usage is within threshold, no scaling adjustment required
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 1
+Current treshold in MBs 140
+Current total treshold in MBs  140
+Current memory usage across all pods in MBs 208 
+
+Current total Memory usage is greater than total threshold, extra 1 pods required to meet Memory demand
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 1
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 887 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 1
+Extra Pods Required: 1
+Requesting new Total Pods: 2
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:54:02 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:54:09 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 208
+Total Number of Active Pods: 1
+Average Response Time for http requests: 887
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:54:09 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:54:16 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 208
+Total Number of Active Pods: 1
+Average Response Time for http requests: 898
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:54:16 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:54:23 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 151
+Total Memory in MBs across all pods: 459
+Total Number of Active Pods: 4
+Average Response Time for http requests: 898
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 151 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 459 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 898 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Extra Pods Required: 1
+Requesting new Total Pods: 5
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:54:23 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:54:30 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 151
+Total Memory in MBs across all pods: 459
+Total Number of Active Pods: 4
+Average Response Time for http requests: 898
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:54:30 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:54:37 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 4
+Total Memory in MBs across all pods: 457
+Total Number of Active Pods: 4
+Average Response Time for http requests: 914
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:54:37 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:54:44 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 4
+Total Memory in MBs across all pods: 291
+Total Number of Active Pods: 2
+Average Response Time for http requests: 917
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 2
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 300
+Current cpu usage across all pods in MilliCores 4 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 2
+Current treshold in MBs 140
+Current total treshold in MBs  280
+Current memory usage across all pods in MBs 291 
+
+Current total Memory usage is greater than total threshold, extra 1 pods required to meet Memory demand
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 2
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 917 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 2
+Extra Pods Required: 1
+Requesting new Total Pods: 3
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:54:44 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:54:51 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 4
+Total Memory in MBs across all pods: 291
+Total Number of Active Pods: 2
+Average Response Time for http requests: 923
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:54:51 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:54:58 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 4
+Total Memory in MBs across all pods: 291
+Total Number of Active Pods: 2
+Average Response Time for http requests: 928
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:54:58 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:55:05 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 4
+Total Memory in MBs across all pods: 291
+Total Number of Active Pods: 2
+Average Response Time for http requests: 932
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 2
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 300
+Current cpu usage across all pods in MilliCores 4 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 2
+Current treshold in MBs 140
+Current total treshold in MBs  280
+Current memory usage across all pods in MBs 291 
+
+Current total Memory usage is greater than total threshold, extra 1 pods required to meet Memory demand
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 2
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 932 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 2
+Extra Pods Required: 1
+Requesting new Total Pods: 3
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:55:05 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:55:12 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 111
+Total Memory in MBs across all pods: 473
+Total Number of Active Pods: 4
+Average Response Time for http requests: 936
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:55:12 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:55:19 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 55
+Total Memory in MBs across all pods: 480
+Total Number of Active Pods: 4
+Average Response Time for http requests: 936
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:55:19 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:55:26 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 9
+Total Memory in MBs across all pods: 405
+Total Number of Active Pods: 3
+Average Response Time for http requests: 936
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 3
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 450
+Current cpu usage across all pods in MilliCores 9 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 3
+Current treshold in MBs 140
+Current total treshold in MBs  420
+Current memory usage across all pods in MBs 405 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 3
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 936 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 3
+Extra Pods Required: 1
+Requesting new Total Pods: 4
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:55:26 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:55:33 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 6
+Total Memory in MBs across all pods: 405
+Total Number of Active Pods: 3
+Average Response Time for http requests: 936
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:55:33 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:55:40 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 6
+Total Memory in MBs across all pods: 405
+Total Number of Active Pods: 3
+Average Response Time for http requests: 936
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:55:40 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:55:47 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 66
+Total Memory in MBs across all pods: 288
+Total Number of Active Pods: 2
+Average Response Time for http requests: 936
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 2
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 300
+Current cpu usage across all pods in MilliCores 66 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 2
+Current treshold in MBs 140
+Current total treshold in MBs  280
+Current memory usage across all pods in MBs 288 
+
+Current total Memory usage is greater than total threshold, extra 1 pods required to meet Memory demand
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 2
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 936 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 2
+Extra Pods Required: 1
+Requesting new Total Pods: 3
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:55:47 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:55:54 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 66
+Total Memory in MBs across all pods: 288
+Total Number of Active Pods: 2
+Average Response Time for http requests: 936
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:55:54 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:56:01 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 66
+Total Memory in MBs across all pods: 288
+Total Number of Active Pods: 2
+Average Response Time for http requests: 936
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:56:01 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:56:08 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 99
+Total Memory in MBs across all pods: 459
+Total Number of Active Pods: 4
+Average Response Time for http requests: 936
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 99 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 459 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 936 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Extra Pods Required: 1
+Requesting new Total Pods: 5
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:56:08 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:56:15 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 98
+Total Memory in MBs across all pods: 459
+Total Number of Active Pods: 4
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:56:15 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:56:22 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 1
+Total Memory in MBs across all pods: 374
+Total Number of Active Pods: 4
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:56:22 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:56:29 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 3
+Total Memory in MBs across all pods: 375
+Total Number of Active Pods: 3
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 3
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 450
+Current cpu usage across all pods in MilliCores 3 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 3
+Current treshold in MBs 140
+Current total treshold in MBs  420
+Current memory usage across all pods in MBs 375 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 3
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 2 
+
+Current response time is within threshold, no scaling adjustment required
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 3
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:56:29 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:56:36 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 3
+Total Memory in MBs across all pods: 375
+Total Number of Active Pods: 3
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 3
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 450
+Current cpu usage across all pods in MilliCores 3 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 3
+Current treshold in MBs 140
+Current total treshold in MBs  420
+Current memory usage across all pods in MBs 375 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 3
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 2 
+
+Current response time is within threshold, no scaling adjustment required
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 3
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:56:36 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:56:43 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 83
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 83 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 455 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 2 
+
+Current response time is within threshold, no scaling adjustment required
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:56:43 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:56:50 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 83
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 83 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 455 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 2 
+
+Current response time is within threshold, no scaling adjustment required
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:56:50 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:56:57 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 3
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 3 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 455 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 2 
+
+Current response time is within threshold, no scaling adjustment required
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:56:57 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:57:04 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 3
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 3 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 455 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 2 
+
+Current response time is within threshold, no scaling adjustment required
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:57:04 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:57:11 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 3
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 3 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 455 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 2 
+
+Current response time is within threshold, no scaling adjustment required
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:57:11 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:57:18 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 3
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 3 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 455 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 2 
+
+Current response time is within threshold, no scaling adjustment required
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:57:18 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:57:25 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 3
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 3 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 455 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 5 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Extra Pods Required: 1
+Requesting new Total Pods: 5
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:57:25 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:57:32 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:57:32 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:57:39 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:57:39 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:57:46 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 2 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 455 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 5 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Extra Pods Required: 1
+Requesting new Total Pods: 5
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:57:46 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:57:53 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:57:53 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:58:00 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 2
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:58:00 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:58:07 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 1
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 1 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 455 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 5 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Extra Pods Required: 1
+Requesting new Total Pods: 5
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:58:07 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:58:14 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:58:14 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:58:21 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:58:21 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:58:28 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 2 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 455 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 5 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Extra Pods Required: 1
+Requesting new Total Pods: 5
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:58:28 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:58:35 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 456
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:58:35 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:58:42 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 456
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:58:42 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:58:49 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 455
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 2 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 455 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 5 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Extra Pods Required: 1
+Requesting new Total Pods: 5
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:58:49 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:58:56 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 456
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:58:56 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:59:03 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 456
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:59:03 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:59:10 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 456
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 2 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 456 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 5 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Extra Pods Required: 1
+Requesting new Total Pods: 5
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:59:10 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:59:17 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 456
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:59:17 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:59:24 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 457
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:59:24 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:59:31 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 457
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 2 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 457 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 5 
+
+Current average response time is greater than upper threshold, extra pod required to meet demand
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Extra Pods Required: 1
+Requesting new Total Pods: 5
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:59:31 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:59:38 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 457
+Total Number of Active Pods: 4
+Average Response Time for http requests: 5
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:59:38 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:59:45 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 457
+Total Number of Active Pods: 4
+Average Response Time for http requests: 0
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:59:45 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:59:52 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 3
+Total Memory in MBs across all pods: 457
+Total Number of Active Pods: 4
+Average Response Time for http requests: 0
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 3 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 457 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 0 
+
+Current average response time is less than lower treshold, cluster can scale down
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:59:52 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 09:59:59 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 3
+Total Memory in MBs across all pods: 457
+Total Number of Active Pods: 4
+Average Response Time for http requests: 0
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 3 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 457 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 0 
+
+Current average response time is less than lower treshold, cluster can scale down
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 09:59:59 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 10:00:06 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 3
+Total Memory in MBs across all pods: 457
+Total Number of Active Pods: 4
+Average Response Time for http requests: 0
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 3 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 457 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 0 
+
+Current average response time is less than lower treshold, cluster can scale down
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 10:00:06 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 10:00:13 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 457
+Total Number of Active Pods: 4
+Average Response Time for http requests: 0
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 2 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 457 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 0 
+
+Current average response time is less than lower treshold, cluster can scale down
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 10:00:13 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 10:00:20 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 2
+Total Memory in MBs across all pods: 457
+Total Number of Active Pods: 4
+Average Response Time for http requests: 0
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 600
+Current cpu usage across all pods in MilliCores 2 
+
+Current total CPU usage is less than total threshold
+Difference is greater than 1 pod threshold, cluster can scale down based on current CPU demand
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 4
+Current treshold in MBs 140
+Current total treshold in MBs  560
+Current memory usage across all pods in MBs 457 
+
+Current total Memory usage is within threshold, no scaling adjustment required
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 4
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 0 
+
+Current average response time is less than lower treshold, cluster can scale down
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 4
+Pods are at optimal level, no scaling up or down required
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 10:00:20 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 10:00:27 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 207
+Total Number of Active Pods: 1
+Average Response Time for http requests: 0
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 1
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 150
+Current cpu usage across all pods in MilliCores 0 
+
+Current total CPU usage is within threshold, no scaling adjustment required
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 1
+Current treshold in MBs 140
+Current total treshold in MBs  140
+Current memory usage across all pods in MBs 207 
+
+Current total Memory usage is greater than total threshold, extra 1 pods required to meet Memory demand
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 1
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 0 
+
+Current response time is within threshold, no scaling adjustment required
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 1
+Extra Pods Required: 1
+Requesting new Total Pods: 2
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 10:00:27 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 10:00:34 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 207
+Total Number of Active Pods: 1
+Average Response Time for http requests: 0
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 10:00:34 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 10:00:41 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 207
+Total Number of Active Pods: 1
+Average Response Time for http requests: 0
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is currently active, analysis is futile
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 10:00:41 GMT+0100 (IST) *************
+
+
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+
+
+************* Starting Metrics Capture and Analysis Mon Apr 03 2017 10:00:48 GMT+0100 (IST) *************
+
+
+*** STEP 1: Capture Cluster Metrics: *** 
+
+Total CPU in millicores across all pods: 0
+Total Memory in MBs across all pods: 207
+Total Number of Active Pods: 1
+Average Response Time for http requests: 0
+
+
+*** STEP 2: Check if scaling possible: *** 
+
+Scaling is not currently active, analysis can proceed
+
+
+*** STEP 3: Retrieve Scaling Rules Data Model: *** 
+
+Scaling Data Model
+{
+  "cpuTresholdPercent": 50,
+  "memoryTresholdPercent": 70,
+  "upperResponseTimeTresholdSeconds": 2,
+  "lowerResponseTimeTresholdSeconds": 1,
+  "metricsAnalysisLevel": "high"
+}
+
+
+*** STEP 4: Analyse CPU usage in cluster: *** 
+
+Current number of pods 1
+Current treshold in MilliCores 150
+Current total treshold in MilliCores 150
+Current cpu usage across all pods in MilliCores 0 
+
+Current total CPU usage is within threshold, no scaling adjustment required
+
+
+*** STEP 5: Analyse Memory usage in cluster: *** 
+
+Current number of pods 1
+Current treshold in MBs 140
+Current total treshold in MBs  140
+Current memory usage across all pods in MBs 207 
+
+Current total Memory usage is greater than total threshold, extra 1 pods required to meet Memory demand
+
+
+*** STEP 6: Analyse IO response times in cluster: *** 
+
+Current number of pods 1
+Current upper response time treshold in secs 2
+Current lower response time treshold in secs 1
+Current average response time across all pods in secs 0 
+
+Current response time is within threshold, no scaling adjustment required
+
+
+*** STEP 7: Aggregate scale requirements *** 
+
+Current Active Pods: 1
+Extra Pods Required: 1
+Requesting new Total Pods: 2
+
+
+************* Finished Metrics Capture and Analysis Mon Apr 03 2017 10:00:48 GMT+0100 (IST) *************
+
+
+
+
+
+
+************************************************************************************
+************************************************************************************
+************************************************************************************
+Stoping the monitoring of resources 
+
+************************************************************************************
+************************************************************************************
+************************************************************************************

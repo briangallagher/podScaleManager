@@ -1,0 +1,8 @@
+export NODE_LOAD_TEST_IP='192.168.99.101';
+export NODE_LOAD_TEST_PORT='32391';
+export PROMETHUS_IP='192.168.99.101';
+export PROMETHUS_PORT='31152';
+export CPU_MILLICORE_LIMIT=300;
+export MEMORY_LIMIT=200;
+
+node application.js
